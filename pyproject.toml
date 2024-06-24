@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fifa-world-cup"
+version = "0.1.0"
+description = ""
+authors = ["Andre Oliveira <88242664+andreluoliveira82@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bs4 = "^0.0.2"
+requests = "^2.32.3"
+pandas = "^2.2.2"
+lxml = "^5.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
